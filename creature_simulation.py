@@ -38,6 +38,7 @@ class FlyingCreature(Creature):
             f"{self.name} performs an aerial attack on {target.name} for {self.attack_power} damage!"
         )
         target.hp -= self.attack_power
+        print(f"{target.name} HP is now {target.hp}")
 
 
 if __name__ == "__main__":
