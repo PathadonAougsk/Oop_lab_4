@@ -21,16 +21,15 @@ I will begin with a base class (`Creature`) and create additional subclasses on 
 
 ---
 ## Project Structure
-oop_creature_code/
-│
-├── creature_simulation.py # Base class + subclasses
+oop_creature_code/\
+├── creature_simulation.py # Base class + subclasses\
 └── README.md
 
 ## Project Structure
-Class Creature (Parent Class)
-├── FlyingCreature (Child Class)
-├── SwimmingCreature (Child Class)
-├── FireCreature (Child Class)
+Class Creature (Parent Class)\
+├── FlyingCreature (Child Class)\
+├── SwimmingCreature (Child Class)\
+└── FireCreature (Child Class)
 
 * Monster = SubClass of Creature (FlyingCreature, etc)
 
